@@ -4,7 +4,8 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    html = (
+    html = "<h1>Hello World!!</h1><p>nice going, you managed to deploy some code the cool way"
+    htmlv2 = (
         "<h1>Hello world!!<h1>"
         "<h2>Summary</h2>"
         "<font size='6'>"
@@ -13,7 +14,6 @@ def hello_world():
         "<i>PowerShell</i> Staat niet op de kaart... bieb bieb bieb mwueup<br>"
         "</font><br><br>"
         "<img src='https://raw.githubusercontent.com/thiezn/pythonrocks/master/images/programmingpopularity.PNG'>"
-        "<p>nice going, you managed to deploy some code the cool way"
     )
     return html
 
