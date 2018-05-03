@@ -15,7 +15,7 @@ def hello_world():
         "</font><br><br>"
         "<img src='https://raw.githubusercontent.com/thiezn/pythonrocks/master/images/programmingpopularity.PNG'>"
     )
-    return htmlv2
+    return html
 
 
 if __name__ == '__main__':
