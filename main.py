@@ -5,6 +5,7 @@ app = Flask(__name__)
 def hello_world():
     html = (
         "<h2>Hello world!!<h2>"
+        "<img src='images/programmingpopularity.PNG'>"
         "<p>nice going, you managed to deploy some code the cool way"
     )
     return html
